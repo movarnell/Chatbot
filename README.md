@@ -14,12 +14,6 @@ This is not just any chatbot. This is **THE** chatbot. It tells jokes, answers q
 - **Coding Kindergarten**: A friendly bot that helps you learn to code, while keeping the jargon to a minimum as well as the complexity. Always encouraging and supportive. 🧸
 - **Wannabe Knowitall**: Reliable in providing the answer, but not much else. Snarky and known to be a bit of a know-it-all. 😎
 
-## Installation
-
-1. Clone the repo: `git clone https://github.com/yourusername/chatbot-extravaganza.git`
-2. Navigate to the directory: `cd chatbot-extravaganza`
-3. Install dependencies: `npm install`
-4. Start the chatbot: `npm start`
 
 ## Usage
 
