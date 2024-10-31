@@ -1,50 +1,36 @@
-# React + TypeScript + Vite
+# 🤖 Chatbot Extravaganza 🎉
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the Chatbot Extravaganza, where our chatbot is smarter than your average toaster! 🥳
 
-Currently, two official plugins are available:
+You will need a Open AI API Key to use this.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What is this?
 
-## Expanding the ESLint configuration
+This is not just any chatbot. This is **THE** chatbot. It tells jokes, answers questions, and might even do your homework (just kidding, it won't). But it will keep you entertained for hours, or at least until your battery dies. 🔋
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Senior Developer Bob**: Bob gives sage advice and has a wealth of experience to help you learn. He's a bit sarcastic and has a dry sense of humor. 🤓
+- **Coding Kindergarten**: A friendly bot that helps you learn to code, while keeping the jargon to a minimum as well as the complexity. Always encouraging and supportive. 🧸
+- **Wannabe Knowitall**: Reliable in providing the answer, but not much else. Snarky and known to be a bit of a know-it-all. 😎
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Installation
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+1. Clone the repo: `git clone https://github.com/yourusername/chatbot-extravaganza.git`
+2. Navigate to the directory: `cd chatbot-extravaganza`
+3. Install dependencies: `npm install`
+4. Start the chatbot: `npm start`
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## Usage
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Just type your message and hit enter. The chatbot will do the rest. It's like magic, but with more code. ✨
+
+
+
+## Disclaimer
+
+This chatbot is for entertainment purposes only. It might not always be accurate, but it will always try its best. Use it responsibly and don't ask it for stock tips it is financially irresponsible. 📉
+
+---
+
+Made by Michael Varnell
